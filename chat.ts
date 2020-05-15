@@ -1,9 +1,8 @@
 import {
     WebSocket,
-    isWebSocketCloseEvent
-} from "https://deno.land/std/ws/mod.ts";
-
-import { v4 } from "https://deno.land/std/uuid/mod.ts";
+    isWebSocketCloseEvent,
+    v4
+} from "./deps";
 
 const users = new Map<string, WebSocket>();
 
