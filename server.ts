@@ -1,4 +1,8 @@
-import { acceptWebSocket, acceptable, listenAndServe } from "./deps";
+import { 
+	acceptWebSocket,
+	acceptable,
+	listenAndServe
+} from "./deps";
 import { chat } from "./chat";
 
 listenAndServe({ port:3000 }, async (req) => {
